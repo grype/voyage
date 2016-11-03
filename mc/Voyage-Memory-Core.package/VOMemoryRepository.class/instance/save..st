@@ -1,3 +1,4 @@
 persistence
 save: anObject
-	^(self list: anObject class) add: anObject.
+	self voyageRootsIn: anObject excluding: nil do: [ :each | (self list: each class) add: each ].
+	^ anObject
