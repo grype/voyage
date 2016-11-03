@@ -3,7 +3,7 @@ voyageRootsInObject: anObject excluding: excludes do: aBlock
 	anObject class isVoyageRoot
 		ifTrue: [ aBlock cull: anObject ].
 	excludes add: anObject.
-	anObject class instVarNames
+	anObject class allInstVarNames
 		do: [ :ivar | 
 			| val |
 			val := anObject instVarNamed: ivar.
