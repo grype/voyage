@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "TorstenBergmann 3/4/2015 20:14",
 	"instvars" : [
-		"objectMap" ],
+		"objectMap",
+		"splitRoots" ],
 	"name" : "VOMemoryRepository",
 	"pools" : [
 		 ],
